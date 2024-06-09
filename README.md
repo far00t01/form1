@@ -40,6 +40,8 @@ Found contact forms:
 ```
 python3 form1.py -u example.com -d 
 
+Processing URLs: 100%|██████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.00s/it]
+
 Checking URL: https://example.com
 Successfully retrieved https://example.com
 Found potential contact URL: https://example.com/contacto/
@@ -57,7 +59,7 @@ Found contact form: https://example.com/contacto/
 ```
 python3 form1.py -f urls.txt
 
-Processing URLs: 100%|██████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.00s/it]
+Processing URLs: 100%|██████████████████████████████████████████████████████| 9/9 [00:03<00:00,  1.00s/it]
 
 Found contact forms:
  - https://www.example.com/contact
