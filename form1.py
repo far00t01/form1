@@ -5,6 +5,7 @@ import argparse
 from tqdm import tqdm
 from urllib3.exceptions import InsecureRequestWarning
 from colorama import Fore, Style, init
+import sys
 
 # Initialize colorama
 init(autoreset=True)
@@ -127,6 +128,10 @@ def main():
     parser.add_argument('-d', '--debug', action='store_true', help='Enable debug mode')
 
     args = parser.parse_args()
+
+    if not args.url and not args.file:
+        parser.print_help(sys.stderr)
+        sys.exit(1)
 
     print(Fore.GREEN + BANNER)
     print(Fore.GREEN + AUTHOR + "\n")
