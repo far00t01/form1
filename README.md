@@ -7,7 +7,7 @@ This Python script checks websites to find contact pages and forms in the HTML c
 
 - **Contact Form Search**: Analyzes the HTML code of a given URL or a set of URLs from a file to find links related to "contact".
 - **Form Verification**: Verifies that the found pages contain forms with fields like "name" and "email".
-- **Results**: Displays the results in the console and saves them in a file called `contact.txt`.
+- **Results**: Displays the results in the console and saves them in a file called `result.txt`.
 
 
 ## Usage:
