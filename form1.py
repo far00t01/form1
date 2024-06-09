@@ -4,6 +4,23 @@ import re
 import argparse
 from tqdm import tqdm
 from urllib3.exceptions import InsecureRequestWarning
+from colorama import Fore, Style, init
+
+# Initialize colorama
+init(autoreset=True)
+
+BANNER = """
+'########::'#######::'########::'##::::'##::::'##:::
+ ##.....::'##.... ##: ##.... ##: ###::'###::'####:::
+ ##::::::: ##:::: ##: ##:::: ##: ####'####::.. ##:::
+ ######::: ##:::: ##: ########:: ## ### ##:::: ##:::
+ ##...:::: ##:::: ##: ##.. ##::: ##. #: ##:::: ##:::
+ ##::::::: ##:::: ##: ##::. ##:: ##:.:: ##:::: ##:::
+ ##:::::::. #######:: ##:::. ##: ##:::: ##::'######:
+..:::::::::.......:::..:::::..::..:::::..:::......::
+"""
+
+AUTHOR = "by @far00t01 - Version 2.0"
 
 # Disable SSL verification warnings
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
@@ -110,6 +127,9 @@ def main():
     parser.add_argument('-d', '--debug', action='store_true', help='Enable debug mode')
 
     args = parser.parse_args()
+
+    print(Fore.GREEN + BANNER)
+    print(Fore.GREEN + AUTHOR + "\n")
 
     urls_to_scan = []
 
