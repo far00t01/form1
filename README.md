@@ -35,7 +35,7 @@ options:
 python3 form1.py -u example.com
 
 Found contact forms:
- - https://www.example.com/contact
+- https://www.example.com/contact
 ```
 
 ### Scan a Single URL with debug method 
@@ -52,7 +52,8 @@ Form found with inputs: ['s']
 Form found with inputs: ['nombre', 'apellidos', 'email', 'telefono', 'direccion', '', '_wpcf7_ak_js']
 Form with required input fields found at https://example.com/contacto/
 
-Found contact form: https://example.com/contacto/
+Found contact form:
+- https://example.com/contacto/
 ```
 
 ### Scan Multiple URLs from a File
