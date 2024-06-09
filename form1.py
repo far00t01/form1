@@ -178,7 +178,7 @@ def main():
             print("\nNo contact forms found.")
 
     if contact_pages:
-        with open('contact.txt', 'w') as outfile:
+        with open('result.txt', 'w') as outfile:
             for contact_page in contact_pages:
                 outfile.write(f"Found contact form: {contact_page}\n")
 
