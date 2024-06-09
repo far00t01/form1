@@ -43,7 +43,10 @@ Found contact forms:
  - https://www.example.com/contact
  - https://www.anotherexample.com/contact-us
 
+
 Content of contact.txt:
+
 Found contact form: https://www.example.com/contact
+
 Found contact form: https://www.anotherexample.com/contact-us
 
