@@ -85,5 +85,12 @@ Found contact form: https://www.other.com/
 ### Installing Python Packages
 Run the following command to install the necessary packages:
 
-`pip install requests beautifulsoup4 tqdm urllib3`
+### Install
+
+```
+git clone https://github.com/far00t01/form1
+cd form1 
+pip install -r requirement.txt
+python3 form1.py
+```
 
