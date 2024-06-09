@@ -3,6 +3,10 @@
 This Python script checks websites to find contact pages and forms in the HTML code. It's handy for auditing multiple sites to see if they have contact forms. This script was mainly created to search for and identify the "HyperLink Injection" vulnerability in various contact forms of an application.
 
 
+<div style="text-align: center;">
+  <img src="https://github.com/far00t01/form1/blob/main/form1.webp" alt="Formulario con lupa" width="300"/>
+</div>
+
 ## Features
 
 - **Contact Form Search**: Analyzes the HTML code of a given URL or a set of URLs from a file to find links related to "contact".
