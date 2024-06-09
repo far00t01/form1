@@ -84,7 +84,7 @@ Found contact form: https://www.other.com/
 ### Install
 
 ```
-git clone https://github.com/far00t01/form1
+
 cd form1 
 pip install -r requirement.txt
 python3 form1.py
