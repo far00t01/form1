@@ -34,8 +34,6 @@ options:
 ```
 python3 form1.py -u example.com
 
-Processing URLs: 100%|██████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.00s/it]
-
 Found contact forms:
  - https://www.example.com/contact
 ```
@@ -43,8 +41,6 @@ Found contact forms:
 ### Scan a Single URL with debug method 
 ```
 python3 form1.py -u example.com -d 
-
-Processing URLs: 100%|██████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.00s/it]
 
 Checking URL: https://example.com
 Successfully retrieved https://example.com
@@ -62,8 +58,6 @@ Found contact form: https://example.com/contacto/
 ### Scan Multiple URLs from a File
 ```
 python3 form1.py -f urls.txt
-
-Processing URLs: 100%|██████████████████████████████████████████████████████| 9/9 [00:03<00:00,  1.00s/it]
 
 Found contact forms:
  - https://www.example.com/contact
