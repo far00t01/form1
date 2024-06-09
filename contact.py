@@ -1,9 +1,3 @@
-
-### Script File
-
-Ensure your Python script is named `contact.py` and includes the following code:
-
-```python
 import requests
 from bs4 import BeautifulSoup
 import re
