@@ -76,14 +76,10 @@ Found contact form: https://www.portal.example.com/contact-us
 Found contact form: https://www.other.com/
 ```
 
-
 # Installation Requirements
 
-## System Requirements
+### System Requirements
 - **Python**: Make sure you have Python 3.x installed. You can check this by running `python3 --version` in your terminal.
-
-### Installing Python Packages
-Run the following command to install the necessary packages:
 
 ### Install
 
