@@ -21,7 +21,7 @@ BANNER = """
 ..:::::::::.......:::..:::::..::..:::::..:::......::
 """
 
-AUTHOR = "by @far00t01 - Version 2.0"
+AUTHOR = "by @far00t01 - Version 1.1"
 
 # Disable SSL verification warnings
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
@@ -178,7 +178,7 @@ def main():
             print("\nNo contact forms found.")
 
     if contact_pages:
-        with open('result.txt', 'w') as outfile:
+        with open('contact.txt', 'w') as outfile:
             for contact_page in contact_pages:
                 outfile.write(f"Found contact form: {contact_page}\n")
 
