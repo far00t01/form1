@@ -4,7 +4,7 @@ This Python script checks websites to find contact pages and forms in the HTML c
 
 
 <div style="text-align: center;">
-  <img src="https://github.com/far00t01/form1/blob/main/form1.png" alt="Formulario con lupa" width="1400"/>
+  <img src="https://github.com/far00t01/form1/blob/main/form1-banner.png" alt="Formulario con lupa" width="1400"/>
 </div>
 
 ## Features
