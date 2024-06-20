@@ -1,6 +1,6 @@
 
 # form1
-This Python script analyzes the source code to identify contact forms within the HTML code. It allows you to perform analyses with a single URL or a file containing multiple URLs. This script was primarily created to identify the possibility of the "HyperLink Injection" vulnerability in the contact forms of an application.
+This Python script analyzes the source code to identify contact forms within the HTML code. It allows you to perform analyses with a single URL or a file containing multiple URLs. This script was primarily created to identify the possibility of the "[HyperLink Injection](https://medium.com/@far00t01/hyperlink-injection-an-underrated-vulnerability-29e93bbd967b)" vulnerability in the contact forms of an application.
 
 <div style="text-align: center;">
   <img src="https://github.com/far00t01/form1/blob/main/form1-banner.png" alt="Formulario con lupa" width="1400"/>
