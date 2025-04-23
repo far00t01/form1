@@ -7,7 +7,6 @@ from urllib3.exceptions import InsecureRequestWarning
 from colorama import Fore, Style, init
 import sys
 
-# Initialize colorama
 init(autoreset=True)
 
 BANNER = """
@@ -23,15 +22,12 @@ BANNER = """
 
 AUTHOR = "by @far00t01 - Version 1.1"
 
-# Disable SSL verification warnings
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
-# User-Agent to avoid blocking
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
 
-# Keywords in various languages
 CONTACT_KEYWORDS = [
     'contact', 'contacto', 'contato', 'kontakt', 'контакт', '聯絡', 'contacter', 'contatti', '联系', 'contato'
 ]
@@ -95,7 +91,7 @@ def find_contact_forms(url, debug=False):
                             verified_contact_urls.add(full_url)
                             if check_contact_form(full_url, debug):
                                 return full_url
-                            result = process_url(full_url)  # Process the found URL
+                            result = process_url(full_url)
                             if result:
                                 return result
 
